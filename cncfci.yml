@@ -1,14 +1,14 @@
  project:
-  logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.svg?sanitize=true"
-  display_name: Test Project
-  sub_title: Testing
-  project_url: "https://github.com/crosscloudci/testproj"
-  stable_ref: "v0.0.4"
+  logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/tikv/icon/color/tikv-icon-color.svg?sanitize=true"
+  display_name: TiKV
+  sub_title: Distributed transactional key-value database, originally created to complement TiDB
+  project_url: "https://github.com/tikv/tikv"
+  stable_ref: "v3.0.5"
   head_ref: "master"
   ci_system:
     -
       ci_system_type: "travis-ci"
-      ci_project_url: "https://example.com/cncfci/testproj"  # can be anything for citest
-      ci_project_name: "crosscloudci/testproj"
+      ci_project_url: "https://example.com/tikv/tikv"  # can be anything for citest
+      ci_project_name: "tikv/tikv"
       arch:
         - amd64
