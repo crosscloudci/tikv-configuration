@@ -1,7 +1,7 @@
  project:
   logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/tikv/icon/color/tikv-icon-color.svg?sanitize=true"
   display_name: TiKV
-  sub_title: Distributed transactional key-value database, originally created to complement TiDB
+  sub_title: Key/Value Store
   project_url: "https://github.com/tikv/tikv"
   stable_ref: "v3.0.5"
   head_ref: "master"
