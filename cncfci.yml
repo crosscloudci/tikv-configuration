@@ -7,8 +7,8 @@
   head_ref: "master"
   ci_system:
     -
-      ci_system_type: "travis-ci"
-      ci_project_url: "https://example.com/tikv/tikv"  # can be anything for citest
+      ci_system_type: "jenkins-ci"
+      ci_project_url: "https://internal.pingcap.net/idc-jenkins/job/build_tikv_master/"
       ci_project_name: "tikv/tikv"
       arch:
         - amd64
